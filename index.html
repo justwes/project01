@@ -3,10 +3,6 @@
 
 <!-- TODO: custom images, div tags needs class names, responsive images -->
 
-
-
-
-
 <html lang="en">
   <head>
     <title>Wes Portfolio</title>
@@ -21,9 +17,8 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- Fonts -->
     <script src="http://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9:all;lora:n4,i4,n7,i7:all.js"></script>
-
     <link rel="stylesheet" href="css/font-awesome.min.css">
-
+    <!-- favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
   </head>
@@ -31,15 +26,15 @@
   <body>
     <div class="gradient">
     <div class="container">
-
-
-      <div class="top row center-block">
-        <div class="col-md-6 text-left"><h1><i class="fa fa-modx fa-2x"></i></div>
-        <div class="col-md-6 text-right"><h1>Wes Chamness</h1><h4>more text</h4></div>
-      </div>
+      <header>
+        <div class="top row center-block">
+          <div class="col-md-6 text-left"><h1><i class="fa fa-modx fa-2x"></i></div>
+          <div class="col-md-6 text-right"><h1>Wes Chamness</h1><h4 class="text-uppercase">Photography Portfolio</h4></div>
+        </div>
+      </header>
 
       <hr>
-
+      <!-- large main image -->
       <div class="hero row center-block">
         <div class="col-md-12">
 
@@ -56,82 +51,76 @@
 
         </div>
       </div>
-
+      <!-- featured text heading -->
       <div class="featured row center-block">
         <div class="col-md-12 text-left"><h2>Featured Work</h2></div>
       </div>
+      <!-- thumbnails of featured work -->
+      <article>
+        <div class="fwork">
+          <div class="row center-block">
+            <div class="col-md-4">
 
+              <picture>
+              <img class="center-block img-responsive"
+              sizes="(max-width: 2428px) 100vw, 2428px"
+              srcset="
+              images/sm/daughter_bw_350.jpg 350w,
+              images/md/daughter_bw_1693.jpg 1693w,
+              images/lg/daughter_bw_2428.jpg 2428w"
+              src="images/lg/daughter_bw_2428.jpg"
+              data-toggle="modal" data-target="#project1"
+              alt="">
+              </picture>
 
-      <div class="fwork">
-        <div class="row center-block">
-          <div class="col-md-4">
+              <button data-toggle="modal" data-target="#project1" type="button" class="btn btn-default"><h4 class="text-center text-uppercase">More</h4></button>
 
-            <picture>
-            <img class="center-block img-responsive"
-            sizes="(max-width: 2428px) 100vw, 2428px"
-            srcset="
-            images/sm/daughter_bw_350.jpg 350w,
-            images/md/daughter_bw_1693.jpg 1693w,
-            images/lg/daughter_bw_2428.jpg 2428w"
-            src="images/lg/daughter_bw_2428.jpg"
-            data-toggle="modal" data-target="#project1"
-            alt="">
-            </picture>
+            </div>
 
-            <button data-toggle="modal" data-target="#project1" type="button" class="btn btn-default"><h4 class="text-center text-uppercase">More</h4></button>
+            <div class="col-md-4">
+
+              <picture>
+              <img class="center-block img-responsive"
+              sizes="(max-width: 2560px) 100vw, 2560px"
+              srcset="
+              images/sm/daughter_dad_young_350.jpg 350w,
+              images/md/daughter_dad_young_1714.jpg 1714w,
+              images/lg/daughter_dad_young_2560.jpg 2560w"
+              src="images/lg/daughter_dad_young_2560.jpg"
+              data-toggle="modal" data-target="#project2"
+              alt="">
+              </picture>
+
+              <button data-toggle="modal" data-target="#project2" type="button" class="btn btn-default"><h4 class="text-center text-uppercase">More</h4></button>
+
+            </div>
+
+            <div class="col-md-4">
+
+              <picture>
+              <img class="center-block img-responsive"
+              sizes="(max-width: 960px) 100vw, 960px"
+              srcset="
+              images/sm/daughter_dad_350.jpg 350w,
+              images/md/daughter_dad_778.jpg 778w,
+              images/lg/daughter_dad_960.jpg 960w"
+              src="images/lg/daughter_960.jpg"
+              data-toggle="modal" data-target="#project3"
+              alt="">
+              </picture>
+
+              <button data-toggle="modal" data-target="#project3" type="button" class="btn btn-default"><h4 class="text-center text-uppercase">More</h4></button>
+
+            </div>
 
           </div>
-
-          <div class="col-md-4">
-
-            <picture>
-            <img class="center-block img-responsive"
-            sizes="(max-width: 2560px) 100vw, 2560px"
-            srcset="
-            images/sm/daughter_dad_young_350.jpg 350w,
-            images/md/daughter_dad_young_1714.jpg 1714w,
-            images/lg/daughter_dad_young_2560.jpg 2560w"
-            src="images/lg/daughter_dad_young_2560.jpg"
-            data-toggle="modal" data-target="#project1"
-            alt="">
-            </picture>
-
-            <button data-toggle="modal" data-target="#project1" type="button" class="btn btn-default"><h4 class="text-center text-uppercase">More</h4></button>
-
-          </div>
-
-          <div class="col-md-4">
-
-            <picture>
-            <img class="center-block img-responsive"
-            sizes="(max-width: 960px) 100vw, 960px"
-            srcset="
-            images/sm/daughter_dad_350.jpg 350w,
-            images/md/daughter_dad_778.jpg 778w,
-            images/lg/daughter_dad_960.jpg 960w"
-            src="images/lg/daughter_960.jpg"
-            data-toggle="modal" data-target="#project1"
-            alt="">
-            </picture>
-
-            <button data-toggle="modal" data-target="#project1" type="button" class="btn btn-default"><h4 class="text-center text-uppercase">More</h4></button>
-
-          </div>
-
-
-
-
-
-
-
         </div>
-      </div>
-
+      </article>
 
       <hr>
 
       <footer>
-        <p>&copy; 2016 Wesley Chamness</p>
+        <p>© 2016 Wesley Chamness</p>
       </footer>
     </div><!--/.container-->
     </div><!--/.gradient-->
@@ -142,11 +131,11 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+            <h4 class="modal-title" id="myModalLabel">First photo</h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="http://placehold.it/250x250">
-            This was my first project in this class. I learned a lot about HTML and CSS.
+            <img class="modimg img-responsive" src="http://placehold.it/250x250">
+            <p class="text-justify">Hoodie pabst biodiesel, tousled sustainable church-key squid. Echo park gluten-free forage yr offal. Brunch cold-pressed godard, keytar green juice biodiesel hella occupy readymade blog 8-bit vice kitsch. Kickstarter typewriter skateboard, XOXO cred selvage banjo ennui pickled roof party meh blue bottle. Thundercats next level four loko, typewriter fashion axe man bun dreamcatcher tofu normcore forage vinyl chia banjo. Chicharrones tote bag disrupt cornhole. Tilde typewriter authentic, raw denim tote bag banjo banh mi pour-over.</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
@@ -159,10 +148,10 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+            <h4 class="modal-title" id="myModalLabel">Second photo</h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="http://placehold.it/250x250">
+            <img class="modimg img-responsive" src="http://placehold.it/250x250">
             This was my first project in this class. I learned a lot about HTML and CSS.
           </div>
           <div class="modal-footer">
@@ -176,10 +165,10 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+            <h4 class="modal-title" id="myModalLabel">Third photo</h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="http://placehold.it/250x250">
+            <img class="modimg img-responsive" src="http://placehold.it/250x250">
             This was my first project in this class. I learned a lot about HTML and CSS.
           </div>
           <div class="modal-footer">
@@ -190,7 +179,7 @@
     </div>
 
         <!-- Modal For More -->
-    <div class="pop modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <!-- <div class="pop modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -239,7 +228,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
 

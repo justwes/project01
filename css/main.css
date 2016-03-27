@@ -1,6 +1,6 @@
-/** {
+* {
     border: 1px solid red !important;
-}*/
+}
 
 * {
   font-family: source-sans-pro, sans-serif;
@@ -36,4 +36,17 @@ h1, h3, h4 {
 
 .pop {
   background: #FFE0E0;
+}
+
+.modal-content {
+  background: #FFFFE0;
+}
+
+.modal-header {
+  background: #FDCCC6;
+}
+
+.modimg {
+  float: left;
+  padding-right: 5px;
 }
