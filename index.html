@@ -11,10 +11,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <!-- <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'> -->
-    <script type="text/javascript" src="js/jquery-2.2.1.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- Fonts from Adobe and Fontawesome-->
-    <script src="http://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9:all;lora:n4,i4,n7,i7:all.js"></script>
+    <!-- fontawesome for logo -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -26,7 +23,7 @@
     <div class="container">
       <header>
         <div class="top row center-block">
-          <div class="col-md-6 text-left"><h1><i class="fa fa-modx fa-2x"></i></div>
+          <div class="col-md-6 text-left"><h1><i class="fa fa-modx fa-2x"></i></h1></div>
           <div class="col-md-6 text-right"><h1>Wes Chamness</h1><h4 class="text-uppercase">Photography Portfolio</h4></div>
         </div>
       </header>
@@ -60,7 +57,7 @@
             <div class="col-md-4">
 
               <picture>
-              <img class="center-block img-responsive"
+              <img class="fwork-img center-block img-responsive"
               sizes="(max-width: 2428px) 100vw, 2428px"
               srcset="
               images/sm/daughter_bw_350.jpg 350w,
@@ -71,14 +68,14 @@
               alt="Daughter on bridge">
               </picture>
 
-              <button data-toggle="modal" data-target="#project1" type="button" class="btn btn-default"><h4 class="text-center text-uppercase">More</h4></button>
+              <button data-toggle="modal" data-target="#project1" type="button" class="btn btn-default"><span class="text-center text-uppercase">More</span></button>
 
             </div>
 
             <div class="col-md-4">
 
               <picture>
-              <img class="center-block img-responsive"
+              <img class="fwork-img center-block img-responsive"
               sizes="(max-width: 2560px) 100vw, 2560px"
               srcset="
               images/sm/daughter_dad_young_350.jpg 350w,
@@ -89,14 +86,14 @@
               alt="Dad and daughter baby photo">
               </picture>
 
-              <button data-toggle="modal" data-target="#project2" type="button" class="btn btn-default"><h4 class="text-center text-uppercase">More</h4></button>
+              <button data-toggle="modal" data-target="#project2" type="button" class="btn btn-default"><span class="text-center text-uppercase">More</span></button>
 
             </div>
 
             <div class="col-md-4">
 
               <picture>
-              <img class="center-block img-responsive"
+              <img class="fwork-img center-block img-responsive"
               sizes="(max-width: 960px) 100vw, 960px"
               srcset="
               images/sm/daughter_dad_350.jpg 350w,
@@ -107,7 +104,7 @@
               alt="Dad and daughter portrait">
               </picture>
 
-              <button data-toggle="modal" data-target="#project3" type="button" class="btn btn-default"><h4 class="text-center text-uppercase">More</h4></button>
+              <button data-toggle="modal" data-target="#project3" type="button" class="btn btn-default"><span class="text-center text-uppercase">More</span></button>
 
             </div>
 
@@ -131,11 +128,11 @@
 
 
         <!-- Modal for images -->
-    <div class="pop modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="pop modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">Black & White Bridge</h4>
+            <h4 class="modal-title" id="myModalLabel1">Black & White Bridge</h4>
           </div>
           <div class="modal-body">
 
@@ -160,11 +157,11 @@
       </div>
     </div>
 
-    <div class="pop modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="pop modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">Second photo</h4>
+            <h4 class="modal-title" id="myModalLabel2">Side by side</h4>
           </div>
           <div class="modal-body">
 
@@ -190,11 +187,11 @@
       </div>
     </div>
 
-    <div class="pop modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="pop modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">Third photo</h4>
+            <h4 class="modal-title" id="myModalLabel3">Self portrait</h4>
           </div>
           <div class="modal-body">
 
@@ -210,7 +207,7 @@
             alt="Dad and daughter portrait">
             </picture>
 
-            <p class="well well-sm">A wonderful day that ended with us capturing a daddy and daughter selfportrait.</p>
+            <p class="well well-sm">A wonderful day that ended with us capturing a daddy and daughter self portrait.</p>
 
           </div>
           <div class="modal-footer">
@@ -220,5 +217,18 @@
       </div>
     </div>
 
+    <!-- Scripts at the end to load html faster -->
+
+    <script src="js/jquery-2.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Fonts from Adobe -->
+    <script src="http://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9:all;lora:n4,i4,n7,i7:all.js"></script>
+
   </body>
+
+
+
+
+
+
 </html>
