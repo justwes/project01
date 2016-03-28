@@ -34,7 +34,7 @@
       </header>
 
       <hr>
-      <!-- large main image -->
+      <!-- large hero image -->
       <div class="hero row center-block">
         <div class="col-md-12">
 
@@ -120,7 +120,13 @@
       <hr>
 
       <footer>
-        <p>© 2016 Wesley Chamness</p>
+
+        <div class="row center-block">
+          <div class="col-md-12">
+            <h4>© 2016 Wesley Chamness</h4>
+          </div>
+        </div>
+
       </footer>
     </div><!--/.container-->
     </div><!--/.gradient-->
@@ -131,11 +137,23 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">First photo</h4>
+            <h4 class="modal-title" id="myModalLabel">Black & White Bridge</h4>
           </div>
           <div class="modal-body">
-            <img class="modimg img-responsive" src="http://placehold.it/250x250">
-            <p class="text-justify">Hoodie pabst biodiesel, tousled sustainable church-key squid. Echo park gluten-free forage yr offal. Brunch cold-pressed godard, keytar green juice biodiesel hella occupy readymade blog 8-bit vice kitsch. Kickstarter typewriter skateboard, XOXO cred selvage banjo ennui pickled roof party meh blue bottle. Thundercats next level four loko, typewriter fashion axe man bun dreamcatcher tofu normcore forage vinyl chia banjo. Chicharrones tote bag disrupt cornhole. Tilde typewriter authentic, raw denim tote bag banjo banh mi pour-over.</p>
+
+            <picture>
+            <img class="modimg img-responsive"
+            sizes="(max-width: 2428px) 45vw, 2428px"
+            srcset="
+            images/sm/daughter_bw_350.jpg 350w,
+            images/md/daughter_bw_1693.jpg 1693w,
+            images/lg/daughter_bw_2428.jpg 2428w"
+            src="images/lg/daughter_bw_2428.jpg"
+            data-toggle="modal" data-target="#project1"
+            alt="Daughter on bridge">
+            </picture>
+
+            <p class="well well-sm">My daughter and I visiting a quiet bridge. A nice moment captured while she was watching the water rush underneath her.</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
@@ -151,8 +169,21 @@
             <h4 class="modal-title" id="myModalLabel">Second photo</h4>
           </div>
           <div class="modal-body">
-            <img class="modimg img-responsive" src="http://placehold.it/250x250">
-            This was my first project in this class. I learned a lot about HTML and CSS.
+
+            <picture>
+            <img class="modimg img-responsive"
+            sizes="(max-width: 2560px) 100vw, 2560px"
+            srcset="
+            images/sm/daughter_dad_young_350.jpg 350w,
+            images/md/daughter_dad_young_1714.jpg 1714w,
+            images/lg/daughter_dad_young_2560.jpg 2560w"
+            src="images/lg/daughter_dad_young_2560.jpg"
+            data-toggle="modal" data-target="#project2"
+            alt="Dad and daughter baby photo">
+            </picture>
+
+            <p class="well well-sm">Side by side photos of me and my daughter at comparable ages.</p>
+
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
@@ -168,8 +199,21 @@
             <h4 class="modal-title" id="myModalLabel">Third photo</h4>
           </div>
           <div class="modal-body">
-            <img class="modimg img-responsive" src="http://placehold.it/250x250">
-            This was my first project in this class. I learned a lot about HTML and CSS.
+
+            <picture>
+            <img class="modimg img-responsive"
+            sizes="(max-width: 960px) 100vw, 960px"
+            srcset="
+            images/sm/daughter_dad_350.jpg 350w,
+            images/md/daughter_dad_778.jpg 778w,
+            images/lg/daughter_dad_960.jpg 960w"
+            src="images/lg/daughter_960.jpg"
+            data-toggle="modal" data-target="#project3"
+            alt="Dad and daughter portrait">
+            </picture>
+
+            <p class="well well-sm">A wonderful that ended with us capturing a daddy and daughter selfportrait.</p>
+
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
@@ -177,60 +221,6 @@
         </div>
       </div>
     </div>
-
-        <!-- Modal For More -->
-    <!-- <div class="pop modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-          </div>
-          <div class="modal-body">
-            <img class="img-responsive" src="http://placehold.it/250x250">
-            This was my first project in this class. I learned a lot about HTML and CSS.
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="pop modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-          </div>
-          <div class="modal-body">
-            <img class="img-responsive" src="http://placehold.it/250x250">
-            This was my first project in this class. I learned a lot about HTML and CSS.
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="pop modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-          </div>
-          <div class="modal-body">
-            <img class="img-responsive" src="http://placehold.it/250x250">
-            This was my first project in this class. I learned a lot about HTML and CSS.
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-
 
   </body>
 </html>
