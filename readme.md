@@ -1,6 +1,10 @@
 ## Project 1 Portfolio
 
-This is my Udacity Nano Degree project 1 submission.
+This is my Udacity Nano Degree Portfolio Project.
+
+## Tools and Technology Used
+
+Developed a personal portfolio page using HTML, CSS, Font Awesome, Adobe Font, and the Bootstrap framework. The page is fully responsive and works on mobile, tablet, and desktop browsers.
 
 ## Photography
 
